@@ -12,7 +12,7 @@ backgroundPicker.addEventListener('change', function() {
 });
 
 // Set default background image (optional)
-body.style.backgroundImage = "url('file:///D:/PORTFOLIO/wiki-test/img/skul-profile-backgrounds-rare.jpg')";
+body.style.backgroundImage = "url('./img/skul-profile-backgrounds-rare.jpg')";
 body.style.backgroundSize = "cover";
 body.style.backgroundPosition = "center";
 body.style.backgroundAttachment = "fixed";
