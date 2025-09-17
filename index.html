@@ -8,20 +8,61 @@
     <link rel="icon" href="./img/logo.png" type="image/icon type">
 </head>
 <body>
+
+    <!-- HEADER  -->
+
     <header class="header">
         <div class="container">
             <h1><a href="./index.html" class="title">Skul: The Hero Slayer Wiki</a></h1>
             <nav class="navbar">
+
+                 <!-- DROPDOWN MENU -->
+
                 <ul>
-                    <li><a href="#">Explore</a></li>
-                    <li><a href="#">The Adventure</a></li>
-                    <li><a href="#">Characters</a></li>
-                    <li><a href="#">Items</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropdown-trigger" href="#">The Adventure</a>
+                            <div class="conent">
+                                <a href="#">Dark Mirror</a>
+                                <a href="#">Stages</a>
+                                <a href="#">Shrines</a>
+                                <a href="#">Sacred Grounds</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropdown-trigger" href="#">Characters</a>
+                            <div class="conent">
+                                <a href="#">Skulls</a>
+                                <a href="#">NPCs</a>
+                                <a href="#">Enemies</a>
+                                <a href="#">Bosses</a>
+                                <a href="#">Adevnturers</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropdown-trigger" href="#">Items</a>
+                            <div class="conent">
+                                <a href="#">Equipment</a>
+                                <a href="#">Inscriptions</a>
+                                <a href="#">Quintessence</a>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
+
+                <!-- SEARCH BAR -->
+
                 <div class="search-bar">
                     <input type="text" placeholder="Search...">
                 </div>
             </nav>
+
+            <!-- BACKGROUND SELECTOR -->
+
             <select id="backgroundPicker">
                 <option value="./img/skul-profile-backgrounds-rare.jpg">Rare</option>
                 <option value="./img/skul-profile-backgrounds-common.jpg">Common</option>
@@ -29,6 +70,8 @@
             </select>
         </div>
     </header>
+
+    <!-- MAIN CONTENT -->
 
     <main class="main-content">
         <section class="intro">
@@ -76,6 +119,7 @@
     </main>
 
 	
+    <!-- FOOTER -->
 
 
     <footer class="footer">
